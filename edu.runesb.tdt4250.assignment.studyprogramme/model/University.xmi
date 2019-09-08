@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edu.runesb.tdt4250.assignment.studyprogramme:University xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.runesb.tdt4250.assignment.studyprogramme="https://edu/runesb/tdt4250/assignment/studyprogramme"
+    xsi:schemaLocation="https://edu/runesb/tdt4250/assignment/studyprogramme Studyprogramme.ecore"/>

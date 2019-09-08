@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated studyProgramme -->
+      <package
+            uri="https://edu/runesb/tdt4250/assignment/studyprogramme"
+            class="studyprogramme.StudyprogrammePackage"
+            genModel="model/studyProgramme.genmodel"/>
+   </extension>
+
+</plugin>

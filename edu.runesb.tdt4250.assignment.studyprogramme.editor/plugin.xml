@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated studyprogramme -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="studyprogramme.presentation.StudyprogrammeModelWizardID"
+            name="%_UI_StudyprogrammeModelWizard_label"
+            class="studyprogramme.presentation.StudyprogrammeModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/StudyprogrammeModelFile.gif">
+         <description>%_UI_StudyprogrammeModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated studyprogramme -->
+      <editor
+            id="studyprogramme.presentation.StudyprogrammeEditorID"
+            name="%_UI_StudyprogrammeEditor_label"
+            icon="icons/full/obj16/StudyprogrammeModelFile.gif"
+            extensions="studyprogramme"
+            class="studyprogramme.presentation.StudyprogrammeEditor"
+            contributorClass="studyprogramme.presentation.StudyprogrammeActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
