@@ -2,6 +2,7 @@
 
 My solution to assignment 1 in TDT4250 Advanced Software Design, modelling a studyprogramme.
 
+-----------------------------------------------------------------------------------------------------------------------
 
 ECLasses:
 
@@ -83,11 +84,12 @@ Neither of these methods gives the correct behaviour when creating a dynamic ins
                                                 ------CompulsoryCourseSlot------
 Simply a course slot containing a course that is compulsory for this slot. CourseSlot is its superclass and it only contains the reference to Course that it inherits from the CourseSlot EClass.
 
-
+-----------------------------------------------------------------------------------------------------------------------
 
 
 
 EENums:
+
                                                 ------ProgramCode------
 Used by the Programme EClass to identify programs. As of now it contains the literals MTDT, MIDT, BIT, MIT, MTIOT, MTPROD.
 
