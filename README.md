@@ -4,6 +4,7 @@ My solution to assignment 1 in TDT4250 Advanced Software Design, modelling a stu
 
 
 ECLasses:
+
                                                 ------University------
                                                 
 This is the top level element of the model, and it is this EClass that should be created when creating a Dynamic Instance of the model, or running the main plugin as an Eclipse Application in a runtime window. 
@@ -50,9 +51,6 @@ Constraints:
 Semester must have thirty credits. This constraint is written in AQL.
 
 
-                                                
-
-
                                                 ------SemesterContainer------
 Superclass for programme and specialisation. Has a 0-N containment refernce to semester.
 
@@ -87,7 +85,9 @@ Simply a course slot containing a course that is compulsory for this slot. Cours
 
 
 
-EENum:
+
+
+EENums:
                                                 ------ProgramCode------
 Used by the Programme EClass to identify programs. As of now it contains the literals MTDT, MIDT, BIT, MIT, MTIOT, MTPROD.
 
